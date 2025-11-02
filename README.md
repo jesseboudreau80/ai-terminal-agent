@@ -93,3 +93,43 @@ ai-terminal-agent/
 ├── .gitignore
 ├── .gitmodules
 └── README.md
+
+
+🧑‍🤝‍🧑COMMUNITY...For anyone else cloning
+
+
+Clone using --recurse-submodules
+
+
+Place a .gguf model file in models/
+
+
+Run bash scripts/chat.sh
+
+
+You’re live — no API keys required ✨
+
+
+
+🐾 Credits
+
+
+LLM Runtime: llama.cpp
+
+
+Project Owner: Jesse Boudreau
+
+
+Special Thanks: Darcee for testing the first build 💙
+
+
+
+
+“Run it local. Run it fast. Run it private.” — 🧠 AI Terminal Agent
+
+
+---
+
+Would you like me to add a **“Model Switcher Script”** next — so you can do something like  
+`bash scripts/chat.sh --model mistral` or `--model codellama` automatically without editing the file?
+
