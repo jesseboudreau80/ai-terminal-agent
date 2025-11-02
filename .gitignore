@@ -1,0 +1,35 @@
+
+# Ignore build artifacts, binaries, and models
+
+llama.cpp/build/
+
+llama.cpp/.git/
+
+models/*.gguf
+
+models/*.bin
+
+models/*.pt
+
+models/*.safetensors
+
+
+
+# System files
+
+.DS_Store
+
+__pycache__/
+
+*.log
+
+*.tmp
+
+
+
+# Local settings
+
+.env
+
+venv/
+
