@@ -1,0 +1,12 @@
+  localai:
+    image: quay.io/go-skynet/local-ai:latest
+    container_name: localai
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/models
+      - ./localai/models.yaml:/models.yaml
+    environment:
+      - THREADS=16
+      - MODELS_PATH=/models
